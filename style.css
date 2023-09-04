@@ -1,0 +1,198 @@
+.face{
+    position: relative;
+    border: 2px solid black;
+    height: 150px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color:crimson;
+    border-radius: 20px;
+}
+body{
+    position: fixed;
+    background-color:dodgerblue;
+}
+
+.structure{
+    position: absolute;
+    border: 2px solid white;
+    height: 90px;
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.eye1{
+    position: absolute;
+    border: 2px solid black;
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.eye2{
+    position: absolute;
+    border: 2px solid black;
+    height: 20px;
+    width: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+   
+
+
+.mouth{
+    position: absolute;
+    border-bottom: 10px solid black;
+    height: 50%;
+    width: 40%;
+    top:25%;
+    left: 27%;
+    border-radius: 50%;
+}
+.first:hover{
+    margin-left: 5px;
+    animation: movefirst 2s infinite;
+}
+@keyframes movefirst{
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+
+.neck{
+    position: relative;
+    border: 2px solid black;
+    height: 10px;
+    width: 60px;
+    left: 68%;
+    background-color: white;
+}
+
+.middle{
+    position: relative;
+    border: 2px solid black;
+    height: 180px;
+    width: 200px;
+    left: 35%;
+    top: 10px;
+    border-radius: 10px 10px 30px 30px;
+    background-color:crimson;
+}
+
+.middle1{
+    position: absolute;
+    border: 2px solid white;
+    height: 70px;
+    width: 120px;
+    left: 40px;
+    top: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.stomach{
+    margin-left: 100px;
+}
+
+.hand1{
+    position: absolute;
+    border: 2px solid black;
+    height: 100px;
+    bottom: 10%;
+    width: 20px;
+    left: 175px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: black;
+    animation: movehand1 2s infinite;
+    transform-origin: top;
+}
+
+.hand2{
+    position: absolute;
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    left: 425px;
+    bottom: 10%;
+    border-radius: 20px;
+    background-color: black;
+    animation: movehand2 2s infinite;
+    transform-origin: top;
+}
+.leg1{
+    position: absolute;
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    left: 60%;
+    margin-top: 15px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: black;
+    animation: moveleg1 2s infinite;
+    transform-origin: top;
+}
+.leg2{
+    position: absolute;
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    left: 90%;
+    margin-top: 15px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: black;
+    animation: moveleg2 2s infinite;
+    transform-origin: top;
+}
+@keyframes movehand1{
+    50%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(-60deg);
+    }
+}
+@keyframes movehand2{
+    50%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(-60deg);
+    }
+}
+@keyframes moveleg1{
+    50%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes moveleg2{
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-60deg);
+    }
+}
+.antenna1{
+    position: absolute;
+    border: 2px solid black;
+    bottom: 78%;
+    height: 10px;
+    width: 50px;
+    left: 275px;
+    border-radius: 20px 20px 0px 0px;
+}
+
